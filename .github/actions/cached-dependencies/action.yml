@@ -3,7 +3,7 @@ description: 'Get the dependencies and cache them (via npm)'
 inputs:
   caching:
     description: 'whether to cache dependencies or not:'
-    required: false
+    required: true
     default: 'true'
 runs:
   using: composite
