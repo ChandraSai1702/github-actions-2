@@ -27,7 +27,7 @@ jobs:
         uses: ./.github/actions/cached-dependencies
         with:
           caching: 'false'
-      - name: Build website
+      - name: Build website for production
         run: npm run build
       - name: upload artifacts
         uses: actions/upload-artifact@v4
